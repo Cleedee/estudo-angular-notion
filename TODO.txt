@@ -2,3 +2,5 @@
 [ok] Adicionar gradiente via Hypercolor
 [ok] Instalar o @tailwindcss/typography
 [ok] Instalar o Tiptap, um framework de editor para web
+[ok] Instalar CodeBlockLowlight https://tiptap.dev/api/nodes/code-block-lowlight
+[  ] Configurar CodeBlockLowlight
