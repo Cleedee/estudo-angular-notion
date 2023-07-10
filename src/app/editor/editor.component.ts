@@ -5,6 +5,7 @@ import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight';
 import { lowlight } from 'lowlight/lib/core';
 import html from 'highlight.js/lib/languages/xml';
 import css from 'highlight.js/lib/languages/css';
+
 import { texto } from './conteudoInicial';
 
 lowlight.registerLanguage('html', html);

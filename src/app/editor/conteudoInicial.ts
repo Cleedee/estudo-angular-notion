@@ -6,9 +6,5 @@ Olha que é legal, uma parte de citação!
 Será se funciona?
 </blockquote>
 <p>Hello, hello, hello, hahaha!</p>
-<pre>
-  <code class="language-html">
-    Teste.
-  </code>
-</pre>
+<pre><code class="language-html">Teste.</code></pre>
 `;

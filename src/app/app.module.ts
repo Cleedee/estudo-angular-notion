@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { NgxTiptapModule } from 'ngx-tiptap';
+import { HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 
 import { AppComponent } from './app.component';
 import { EditorComponent } from './editor/editor.component';
@@ -15,7 +16,12 @@ import { EditorComponent } from './editor/editor.component';
   imports: [
     BrowserModule, FormsModule, NgxTiptapModule
   ],
-  providers: [],
+  providers: [{
+    provide: HIGHLIGHT_OPTIONS,
+    useValue: {
+      coreLibraryLoader: () => import('highlight.js/lib/core'),
+    }
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

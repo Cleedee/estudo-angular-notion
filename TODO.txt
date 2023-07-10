@@ -3,4 +3,6 @@
 [ok] Instalar o @tailwindcss/typography
 [ok] Instalar o Tiptap, um framework de editor para web
 [ok] Instalar CodeBlockLowlight https://tiptap.dev/api/nodes/code-block-lowlight
-[  ] Configurar CodeBlockLowlight
+[ok] Configurar CodeBlockLowlight
+[ok] Problema com o highlight do bloco de código
+[ok] Instalação do módulo ngx-highlightjs
