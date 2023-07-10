@@ -6,3 +6,6 @@
 [ok] Configurar CodeBlockLowlight
 [ok] Problema com o highlight do bloco de código
 [ok] Instalação do módulo ngx-highlightjs
+[  ] Criar menu de contexto ao lado do texto selecionado
+[  ] Instalar Bubble Menu https://tiptap.dev/api/extensions/bubble-menu
+[  ] Configurar Bubble Menu
