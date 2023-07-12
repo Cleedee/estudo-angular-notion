@@ -33,8 +33,6 @@ export class EditorComponent implements OnDestroy {
     content: texto,
   });
 
-  value = texto;
-
   ngOnDestroy(): void {
       this.editor.destroy();
   }

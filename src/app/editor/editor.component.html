@@ -1,1 +1,6 @@
 <tiptap-editor [editor]="editor" class="max-w-[700px] mx-auto pt-16 prose prose-violet"></tiptap-editor>
+<tiptap-bubble-menu [editor]="editor">
+  <button (click)="editor.chain().focus().toggleBold().run()">bold</button>
+  <button (click)="editor.chain().focus().toggleItalic().run()">italic</button>
+  <button (click)="editor.chain().focus().toggleStrike().run()">strike</button>
+</tiptap-bubble-menu>
