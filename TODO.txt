@@ -9,4 +9,5 @@
 [ok] Criar menu de contexto ao lado do texto selecionado
 [ok] Instalar Bubble Menu https://github.com/sibiraj-s/ngx-tiptap
 [ok] Configurar Bubble Menu
-[  ] Estilizar menu de contexto
+[ok] Estilizar menu de contexto
+[  ] Trocar nome dos menus por ícones
