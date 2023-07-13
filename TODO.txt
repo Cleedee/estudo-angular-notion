@@ -10,4 +10,5 @@
 [ok] Instalar Bubble Menu https://github.com/sibiraj-s/ngx-tiptap
 [ok] Configurar Bubble Menu
 [ok] Estilizar menu de contexto
-[  ] Trocar nome dos menus por ícones
+[ok] Trocar nome dos menus por ícones
+[  ] Criar componente Bubble Button
